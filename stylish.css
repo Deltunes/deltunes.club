@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Pixel Operator";
+    src: url(PixelOperator.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Digi Kyokasho";
+    src: url(DigiKyokasho.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    color:#fbfff1;
+    background-color:#2e2a35;
+    font-family: "Digi Kyokasho", sans-serif;
+    font-size: 20px;
+}
+h1 {
+    font-family: "Pixel Operator", sans-serif;
+    font-size: 80px;
+    line-height: 20%;
+}
+a {
+    color:#5b73e1;
+}
+h2 {
+    font-size: 30px;
+}
+div {
+    text-align: center;
+}
