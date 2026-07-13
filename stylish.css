@@ -11,8 +11,8 @@
     font-style: normal;
 }
 body {
-    color:#fbfff1;
     background-color:#2e2a35;
+    color:#fbfff1;
     font-family: "Digi Kyokasho", sans-serif;
     font-size: 20px;
 }
@@ -29,4 +29,23 @@ h2 {
 }
 hr {
     color:#fbfff1;
+}
+div {
+    background-color:#2e2a35;
+}
+.sidenav {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #232028;
+    overflow-x: hidden;
+    padding-right: 10px;
+    line-height: 20px;
+    text-align: right;
+}
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
 }
