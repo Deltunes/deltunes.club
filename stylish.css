@@ -12,40 +12,39 @@
 }
 body {
     background-color:#2e2a35;
-    color:#fbfff1;
+    color:#b4c5e4;
     font-family: "Digi Kyokasho", sans-serif;
     font-size: 20px;
 }
 h1 {
+    color: white;
     font-family: "Pixel Operator", sans-serif;
     font-size: 80px;
-    line-height: 20%;
-}
-a {
-    color:#5b73e1;
+    line-height: 20px;
 }
 h2 {
     font-size: 30px;
 }
-hr {
-    color:#fbfff1;
+a {
+    color:#b4c5e4;
 }
-div {
-    background-color:#2e2a35;
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 60%;
+    border: none;
+    border-top: 2px solid #b4c5e4;
 }
 .sidenav {
     height: 100%;
-    width: 180px;
+    width: 12%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #232028;
-    overflow-x: hidden;
-    padding-right: 10px;
+    overflow-x: scroll;
+    padding-right: 20px;
     line-height: 20px;
     text-align: right;
-}
-.main {
-    margin-left: 160px; /* Same as the width of the sidenav */
 }
