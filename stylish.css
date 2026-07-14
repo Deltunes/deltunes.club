@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Pixel Operator";
-    src: url(PixelOperator.ttf);
+    src: url(fonts/PixelOperator.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Digi Kyokasho";
-    src: url(DigiKyokasho.ttf);
+    src: url(fonts/DigiKyokasho.ttf);
     font-weight: normal;
     font-style: normal;
 }
