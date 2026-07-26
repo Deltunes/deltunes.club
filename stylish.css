@@ -25,19 +25,25 @@ p {
 h1 {
     color: white;
     font-family: "Pixel Operator", sans-serif;
-    font-size: 250%;
-    line-height: 20px;
+    font-size: 400%;
+    line-height: 10px;
 }
 h2
 {
-    font-size: 100%;
+    font-size: 130%;
+    line-height: 50%;
+}
+h4
+{
+    font-style: italic;
+    line-height: 8px;
 }
 a {
     color:#b4c5e4;
 }
 hr {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 60%;
     border: none;
     border-top: 4px solid #b4c5e4;
