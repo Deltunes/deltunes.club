@@ -10,13 +10,19 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "Alte Haas Grotesk";
+    src: url(fonts/AlteHaasGroteskBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 html {
     overflow-y: scroll;
 }
 body {
     background-color:#2e2a35;
     color:#b4c5e4;
-    font-family: "Digi Kyokasho", sans-serif;
+    font-family: "Alte Haas Grotesk", sans-serif;
     font-size: 24px;
 }
 p {
