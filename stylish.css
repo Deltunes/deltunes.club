@@ -61,26 +61,38 @@ video {
     height: 100%;
     width: 12%;
     position: fixed;
+
     z-index: 1;
     top: 0;
     left: 0;
+
     background-color: #232028;
     overflow-x: visible;
+
     padding-right: 0.5%;
     padding-left: 0.5%;
-    line-height: 10px;
-    text-align: right;
+    text-align: center;
+
     border: none;
     border-right: 4px solid #b4c5e4;
+
+    container-type: inline-size;
+    container-name: sidenav;
 }
 .sidenav_item {
     border: 4px solid #b4c5e4;
-    font-size: 150%;
-    line-height: 110%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-right: 16%;
-    padding-left: 8%;
-    width: 50%;
-    float: right;
+    font-size: 20cqw;
+
+    width: 96cqw;
+    height: 32cqw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sidenav_item a {
+    color: #b4c5e4;
+    text-decoration: none;
 }
